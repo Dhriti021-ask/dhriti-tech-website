@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dhriti.tech | Financial Operations Platform for Businesses & Firms</title>
+<style>
+  /* Base Reset and typography */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3 {
+    margin: 0 0 12px 0;
+  }
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0047cc;
+  }
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #232323;
+  }
+  p {
+    font-size: 1rem;
+    margin: 0 0 16px 0;
+  }
+
+  /* Container */
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px 15px;
+  }
+  
+  /* Sticky Header with nav */
+  header {
+    background: #0047cc;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #ffcc00;
+  }
+
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 70px 15px 60px 15px;
+    background: linear-gradient(135deg, #0052cc, #003d99);
+    color: white;
+    border-bottom: 5px solid #ffcc00;
+  }
+  .hero p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  /* Color highlight */
+  .highlight-blue {
+    color: #0047cc;
+  }
+  
+  /* Section styling */
+  section {
+    margin-top: 50px;
+  }
+  section p, section ul {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  /* Lists */
+  ul {
+    padding-left: 30px;
+  }
+
+  /* Small footnotes */
+  .small-note {
+    color: #666;
+    font-size: 0.9rem;
+    max-width: 900px;
+    margin: 10px auto 0 auto;
+  }
+
+  /* Quote Accordion container */
+  .accordion {
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  .accordion-header {
+    background-color: #f5f8ff;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #0047cc;
+    transition: background-color 0.3s ease;
+  }
+  .accordion-header:hover {
+    background-color: #e0e9ff;
+  }
+  .accordion-content {
+    padding: 20px;
+    background: white;
+    display: none;
+    font-style: italic;
+    color: #333;
+  }
+  .accordion-content.show {
+    display: block;
+  }
+
+  /* Stats grid */
+  .stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .stat-item {
+    background: #f2f7ff;
+    border-radius: 8px;
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    flex: 1 1 150px;
+    min-width: 150px;
+    font-weight: 700;
+    color: #0047cc;
+    font-size: 1.7rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    .stat-item {
+      flex: 1 1 100%;
+    }
+    nav {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#automation">AP Automation</a>
+    <a href="#credit">Credit & Spend</a>
+    <a href="#manage">Manage Platform</a>
+    <a href="#customers">Customers</a>
+    <a href="#join">Join Us</a>
+  </nav>
+</header>
+
+<section class="hero" id="about">
+  <h1>Meet Dhriti.tech. Your financial operations platform.</h1>
+  <p>The intelligent way to create and pay bills, send invoices, manage expenses, control budgets, and access the credit your business needs to grow — all on one platform.</p>
+</section>
+
+<section id="partner" class="container">
+  <h2 class="highlight-blue">Join the 6,000+ accounting firms who partner with Dhriti.tech</h2>
+</section>
+
+<section id="automation" class="container">
+  <h2 class="highlight-blue">Save time on payments with AP automation</h2>
+  <p>Streamline your entire AP process, from bill creation to approvals and payments. Easily sync with your accounting software.</p>
+</section>
+
+<section id="credit" class="container">
+  <h2 class="highlight-blue">Optimize cash flow with the credit and spend control you need</h2>
+  <p>Access credit lines from $1000-$5M¹. Easily request funds, set budgets, and track spend using free software combined with The Dhriti.tech Divvy Card² powered by Visa.</p>
+  <p class="small-note">¹ Credit lines are not guaranteed and will be determined upon application approval.</p>
+  <p class="small-note">² The Dhriti.tech Divvy Card may be issued by one of Divvy Pay, LLC's bank partners. The Dhriti.tech Divvy Card is not a deposit product. For your specific lender, see your Card Agreement.</p>
+</section>
+
+<section id="manage" class="container">
+  <h2 class="highlight-blue">Manage AP, AR, spend, and expense on one platform</h2>
+  <p>Confidently automate your financial operations with simple integration into your tech stack. One login, an aggregated cash flow task list, and automatic sync with leading accounting software.</p>
+</section>
+
+<section id="grow" class="container">
+  <h2 class="highlight-blue">Streamline your clients' financial operations and grow your firm</h2>
+  <p>Automate bookkeeping tasks, enable client bill pay, and expand opportunities for your firm by offering spend and expense management services.</p>
+</section>
+
+<section id="customers" class="container">
+  <h2>Our customers succeed with Dhriti.tech</h2>
+  
+  <div class="accordion" role="region" aria-label="Customer quotes">
+    <div class="accordion-item">
+      <button class="accordion-header" aria-expanded="false" aria-controls="quote1" id="heading1">“Overall, I would estimate that Dhriti.tech has increased efficiency in our office by 20%, and personally saved me a significant amount of time.”</button>
+      <div id="quote1" class="accordion-content" role="region" aria-labelledby="heading1">
+        <p>Dhriti.tech has really enhanced our workflow and time management significantly.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-header" aria-expanded="false" aria-controls="quote2" id="heading2">"We won't process an invoice unless it goes through Dhriti.tech."</button>
+      <div id="quote2" class="accordion-content" role="region" aria-labelledby="heading2">
+        <p>Ensuring every invoice gets proper automation leads to accuracy and accountability.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-header" aria-expanded="false" aria-controls="quote3" id="heading3">"Generation Teach combines my skills in accounting with my love of community. For me it's not just a job to make money but a way to bring people together to learn, grow, and develop."</button>
+      <div id="quote3" class="accordion-content" role="region" aria-labelledby="heading3">
+        <p>The platform supports both professional and community growth values.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-header" aria-expanded="false" aria-controls="quote4" id="heading4">"Payables went from being my whole job, probably 30 hours a week just managing stacks of paper, to maybe 5 hours a week."</button>
+      <div id="quote4" class="accordion-content" role="region" aria-labelledby="heading4">
+        <p>Automation drastically reduces the manual labor required in payables.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-header" aria-expanded="false" aria-controls="quote5" id="heading5">"Dhriti.tech is a great tool. Taking advantage of all its features became a key part of transforming the company."</button>
+      <div id="quote5" class="accordion-content" role="region" aria-labelledby="heading5">
+        <p>Leveraging the full feature set helped streamline company transformation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="join" class="container">
+  <h2>Join the nearly half a million businesses that put their trust in Dhriti.tech</h2>
+  <div class="stats-grid" aria-label="Company statistics">
+    <div class="stat-item">8M+</div>
+    <div class="stat-item">$10K+</div>
+    <div class="stat-item">12 hours</div>
+    <div class="stat-item">$300B</div>
+  </div>
+  <p class="small-note">** As of June 30, 2025.*</p>
+  <p class="small-note">** Based on a survey of 127 Dhriti.tech Spend and Expense users conducted by UserEvidence in March 2022.</p>
+  <p class="small-note">** Based on a survey of 127 Dhriti.tech Spend and Expense users conducted by UserEvidence in March 2022.</p>
+</section>
+
+<script>
+  // Accordion interaction
+  document.querySelectorAll('.accordion-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const expanded = header.getAttribute('aria-expanded') === 'true';
+      // Close all accordions
+      document.querySelectorAll('.accordion-header').forEach(h => {
+        h.setAttribute('aria-expanded', 'false');
+        h.nextElementSibling.classList.remove('show');
+      });
+      // Toggle current
+      if (!expanded) {
+        header.setAttribute('aria-expanded', 'true');
+        header.nextElementSibling.classList.add('show');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
